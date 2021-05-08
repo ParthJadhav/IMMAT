@@ -73,6 +73,15 @@ These are the available commands :-
 
 <img width="467" alt="Help" src="https://user-images.githubusercontent.com/42001064/117529945-33c17a00-aff8-11eb-8530-57f49f346265.png">
 
+## 💫 Demo
+Mac Usage Demo
+
+[![MacOS Demo](https://img.youtube.com/vi/MSmbwhCLf6U/0.jpg)](http://www.youtube.com/watch?v=MSmbwhCLf6U)
+
+iPhone Usage Demo
+
+[![iPhone Demo](https://img.youtube.com/vi/7qxD09ECZrc/0.jpg)](http://www.youtube.com/watch?v=7qxD09ECZrc)
+
 ## 📱 Contact
 
 If you want to contact me you can reach me at Jadhavparth99@gmail.com
