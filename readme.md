@@ -71,6 +71,7 @@ This will reply you with the screenshot of the Mac.
 
 These are the available commands :-
 
+<img width="467" alt="Help" src="https://user-images.githubusercontent.com/42001064/117529945-33c17a00-aff8-11eb-8530-57f49f346265.png">
 
 ## 📱 Contact
 
