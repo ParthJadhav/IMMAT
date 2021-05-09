@@ -30,6 +30,12 @@ cd IMMAT
 
 pip3 install -r requirements.txt
 ```
+For Bluetooth Functionality to Work
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+brew install blueutil
+```
 
 Running IMMAT (Foreground) :
 
