@@ -1,10 +1,10 @@
 import sqlite3
 import time
 from playsound import playsound
-from scripts import Automation_Commands
+from scripts_other import Automation_Commands
 import os
 import pyautogui
-from scripts.art import art
+from scripts_other.art import art
 from pathlib import Path
 import getpass
 
