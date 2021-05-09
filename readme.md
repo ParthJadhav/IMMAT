@@ -104,7 +104,7 @@ These are the available commands :-
 
 iMessage on MacOS saves all messages it got to **chat.db** database. and the messages are saved in messages table of that database.
 
-Whenever a new message is received; IMMAT checks if it has the password which you have entered while running IMMAT and chacks for a matching command.
+Whenever a new message is received; IMMAT checks if it has the password which you have entered while running IMMAT and checks for a matching command.
 
 If the message matches the command then the following function is executed. 
 
