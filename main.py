@@ -7,6 +7,9 @@ import os
 import pyautogui
 from scripts.art import art
 from pathlib import Path
+import getpass
+
+username = getpass.getuser()
 
 # Getting current Path
 
@@ -150,7 +153,7 @@ while 1 < 2:
 
     #-------- initialising chat.db ---------
 
-    conn = sqlite3.connect('/Users/ParthJadhav/Library/Messages/chat.db')
+    conn = sqlite3.connect(f'/Users/{username}/Library/Messages/chat.db')
     cur = conn.cursor()
 
     # -------- Getting Messages ---------
