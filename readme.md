@@ -44,7 +44,7 @@ cd IMMAT
 
 chmod +x main.py
 
-nohup /path/to/main.py &
+nohup python3 /path/to/main.py &
 
 #*#*#*#*#*#*#*#*#*#*#*#*#
 

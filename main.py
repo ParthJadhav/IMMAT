@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import sqlite3
 import time
 from playsound import playsound
@@ -149,7 +148,7 @@ def check_message(msg, row):
 
 # Loops Infinity to get latest Message
 
-while 1 < 2:
+while True:
 
     #-------- initialising chat.db ---------
 
