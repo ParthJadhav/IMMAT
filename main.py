@@ -153,7 +153,7 @@ while 1 < 2:
 
     #-------- initialising chat.db ---------
 
-    conn = sqlite3.connect(f'/Users/{username}/Library/Messages/chat.db')
+    conn = sqlite3.connect(fr'/Users/{username}/Library/Messages/chat.db')
     cur = conn.cursor()
 
     # -------- Getting Messages ---------
