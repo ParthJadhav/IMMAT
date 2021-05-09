@@ -14,7 +14,7 @@ IMMAT is created using Python and AppleScript.
 Before you begin, ensure you have met the following requirements:
 <!--- These are just example requirements. Add, duplicate or remove as required --->
 * You have installed Python3 and have it working.
-* You have a MacOS machine. With iMessage working.
+* You have a MacOS machine which has used iMessage on it atleast once.
 * Any iMessage supported device.
 * Installed the dependencies from requirements.txt.
 
