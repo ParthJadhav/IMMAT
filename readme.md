@@ -33,6 +33,8 @@ Running IMMAT (Foreground) :
 
 ❗️It is mandatory that you run it in foreground at first run.❗
 ```
+git clone https://github.com/ParthJadhav/IMMAT.git
+
 cd IMMAT
 
 python3 main.py
