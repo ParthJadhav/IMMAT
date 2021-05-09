@@ -24,6 +24,8 @@ To install IMMAT, follow these steps:
 
 Installing requirements :-
 ```
+git clone https://github.com/ParthJadhav/IMMAT.git
+
 cd IMMAT
 
 pip3 install -r requirements.txt
@@ -33,10 +35,6 @@ Running IMMAT (Foreground) :
 
 ❗️It is mandatory that you run it in foreground at first run.❗
 ```
-git clone https://github.com/ParthJadhav/IMMAT.git
-
-cd IMMAT
-
 python3 main.py
 ```
 
@@ -54,6 +52,20 @@ To stop :-
 
 pkill -f main.py
 ```
+
+## 🔨 Troubleshooting
+
+If you are encountering errors like :- 
+
+```
+sqlite3.OperationalError: unable to open database file
+```
+
+Then try giving full disk access to the terminal by :-
+
+https://support.avast.com/en-in/article/Mac-full-disk-access/
+
+Instead of avast add Terminal to full-disk access.
 
 ## 🦋 Usage
 
