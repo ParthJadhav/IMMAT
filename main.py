@@ -144,6 +144,7 @@ def check_message(msg, row):
 
     elif "exit" in msg:
         exit()
+        Automation_Commands.revertState(cur, conn, row)
 
     else:
         print("Command Not Found")
