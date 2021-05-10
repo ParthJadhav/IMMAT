@@ -34,7 +34,6 @@ if contents == "Running For First Time":
     os.system('clear')
     checkFile.write("\n" + password + "\n")
     checkFile.write(phone + "\n")
-    print("Running")
 
 else:
     print(art)
@@ -42,9 +41,12 @@ else:
         credentials = f.read().splitlines()
     password = credentials[1]
     phone = credentials[2]
-    print("\n****** Running ******")
 
 checkFile.close()
+
+print("\n****** Running ******\n")
+print("\niMessage your Mac with 'yourPassword <Space> Help' to get the available commands\n")
+print("\niMessage your Mac with 'yourPassword <Space> Exit' to Exit the program\n")
 
 # Checks the latest Message for Command
 
@@ -140,6 +142,9 @@ def check_message(msg, row):
         Automation_Commands.sleepSchedule(value, final_Path)
         Automation_Commands.revertState(cur, conn, row)
 
+    elif "exit" in msg:
+        exit()
+
     else:
         print("Command Not Found")
         Automation_Commands.revertState(cur, conn, row)
@@ -151,8 +156,13 @@ def check_message(msg, row):
 while True:
 
     #-------- initialising chat.db ---------
+    try:
+        conn = sqlite3.connect(fr'/Users/{username}/Library/Messages/chat.db')
+    except sqlite3.OperationalError:
+        print("\n--Permission denied--\n\nTerminal needs to have full disk access for IMMAT to work.\n\nTo give full disk access to terminal :-\n\n1) Go to System Preferences\n\n2)Go to Security and privacy\n\n3) Click on Privacy Tab\n\n4) Scroll down to 'Full Disk Access\n\n5) Click on the Lock below\n\n6) Enter the password\n\n7) If Terminal is present on the right side then enable the full disk acces by clicking the checkmark\n\n8) Else click on plus (+) and add Terminal to the list'")
+        print("\n\nReRun IMMAT after performing the steps\n")
+        break
 
-    conn = sqlite3.connect(fr'/Users/{username}/Library/Messages/chat.db')
     cur = conn.cursor()
 
     # -------- Getting Messages ---------

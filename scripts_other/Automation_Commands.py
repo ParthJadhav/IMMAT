@@ -8,7 +8,7 @@ def helpCommand(iPhoneNumber,path):
     os.system(f"osascript {path}appleScripts/help.applescript {filePath} {iPhoneNumber}")
 
 def revertState(cursor, db, row):
-    sql = f"UPDATE message SET text = 'ns' WHERE ROWID = '{row}'"
+    sql = f"UPDATE message SET text = 'Command Replaced' WHERE ROWID = '{row}'"
     cursor.execute(sql)
     db.commit()
 

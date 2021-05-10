@@ -91,7 +91,7 @@ This will reply you with the screenshot of the Mac.
 
 These are the available commands :-
 
-<img width="467" alt="Help" src="https://user-images.githubusercontent.com/42001064/117529945-33c17a00-aff8-11eb-8530-57f49f346265.png">
+<img width="467" alt="Help" src="https://user-images.githubusercontent.com/42001064/117623025-e88e9f00-b190-11eb-9f3c-b90dc9ac3249.png">
 
 ## 💠 MacOS Demo
 
