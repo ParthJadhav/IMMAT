@@ -91,7 +91,7 @@ This will reply you with the screenshot of the Mac.
 
 These are the available commands :-
 
-<img width="467" alt="Help" src="https://user-images.githubusercontent.com/42001064/117623025-e88e9f00-b190-11eb-9f3c-b90dc9ac3249.png">
+<img width="467" alt="Help" src="https://github.com/ParthJadhav/IMMAT/blob/master/resources/Help.png?raw=true">
 
 ## 💠 MacOS Demo
 
