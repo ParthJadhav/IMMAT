@@ -2,3 +2,4 @@ PyAutoGUI~=0.9.52
 playsound~=1.2.2
 applescript~=2021.2.9
 psutil~=5.8.0
+Pillow~=8.2.0
