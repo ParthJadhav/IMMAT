@@ -66,7 +66,7 @@ def check_message(msg, row):
 
     elif msg == 'fmm':
         Automation_Commands.changeVolume(9)
-        playsound('/Users/parthjadhav/IMMAT/resources/FindMy.m4a')
+        playsound(f"{final_Path}resources/FindMy.m4a")
         Automation_Commands.revertState(cur, conn, row)
 
     elif msg == 'sleepm':
@@ -104,7 +104,6 @@ def check_message(msg, row):
         Automation_Commands.revertState(cur, conn, row)
 
     elif msg == 'ts':
-        #im2 = pyautogui.screenshot('my_screenshot.png')
         myScreenshot = pyautogui.screenshot()
         myScreenshot.save(fr'{final_Path}my_screenshot.png')
         Automation_Commands.takeScreenshot(final_Path, phone)
@@ -155,6 +154,8 @@ def check_message(msg, row):
 # Loops Infinity to get latest Message
 
 while True:
+
+    time.sleep(1)
 
     #-------- initialising chat.db ---------
     try:
