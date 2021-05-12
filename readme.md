@@ -93,11 +93,11 @@ These are the available commands :-
 
 <img width="467" alt="Help" src="https://github.com/ParthJadhav/IMMAT/blob/master/resources/Help.png?raw=true">
 
-## 💠 MacOS Demo
+## 💻 MacOS Demo
 
 <img width="467" alt="Help" src="https://user-images.githubusercontent.com/42001064/117545382-30071500-b043-11eb-8586-35e49c7a7489.GIF">
 
-## 💠 iPhone Demo
+## 📱 iPhone Demo
 <img width="467" alt="Help" src="https://user-images.githubusercontent.com/42001064/117545641-4366b000-b044-11eb-9227-0ece0ee45303.gif">
 
 ## 💠 How does it work?
@@ -110,7 +110,7 @@ If the message matches the command then the following function is executed.
 
 All of these happens locally so there is no need to worry about the privacy and security.
 
-## 📱 Contact
+## 📝 Contact
 
 If you want to contact me you can reach me at Jadhavparth99@gmail.com
 
