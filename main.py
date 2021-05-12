@@ -15,12 +15,23 @@ username = getpass.getuser()
 final_Path = os.path.abspath(__file__)
 final_Path = final_Path.replace('main.py','')
 
+# Getting credentials
+
+try:
+    os.mkdir(Path.home() / 'IMMAT_Credentials')
+    cred_path = (Path.home() / 'IMMAT_Credentials')
+    checkFile = open(f'{cred_path}/credentials.txt', 'w')
+    checkFile.write("Running For First Time")
+    checkFile.close()
+except:
+    cred_path = (Path.home() / 'IMMAT_Credentials')
+
 # Check if Running For First Time
 
 phone = ""
 password = ""
 print(final_Path)
-checkFile = open(f"{final_Path}resources/credentials.txt", 'r+')
+checkFile = open(f'{cred_path}/credentials.txt','r+')
 contents = checkFile.read()
 
 if contents == "Running For First Time":
@@ -37,7 +48,7 @@ if contents == "Running For First Time":
 
 else:
     print(art)
-    with open(f"{final_Path}resources/credentials.txt") as f:
+    with open(f'{cred_path}/credentials.txt','r+') as f:
         credentials = f.read().splitlines()
     password = credentials[1]
     phone = credentials[2]
