@@ -13,7 +13,7 @@ username = getpass.getuser()
 # Getting current Path
 
 final_Path = os.path.abspath(__file__)
-final_Path = final_Path.replace('main.py','')
+final_Path = final_Path.replace('Immat.py','')
 
 # Getting credentials
 

@@ -18,7 +18,20 @@ Before you begin, ensure you have met the following requirements:
 * Any iMessage supported device.
 * Installed the dependencies from requirements.txt.
 
-## 📦 Installing IMMAT
+## 📦 Using IMMAT Through Executable (Recommended)
+
+To Use IMMAT download the file by :-
+
+[Clicking Here !](https://drive.google.com/uc?export=download&id=1RnxwMt9TH0rgXC9NZvk-Wg2JilLhGofb)
+
+Open Terminal and type :-
+```
+chmod +x (Drag the file here and press enter)
+```
+
+Now you can run IMMAT by opening the file.
+
+## 🐍 Using IMMAT Through Python
 
 To install IMMAT, follow these steps:
 
@@ -41,22 +54,20 @@ Running IMMAT (Foreground) :
 
 ❗️It is mandatory that you run it in foreground at first run.❗
 ```
-python3 main.py
+python3 Immat.py
 ```
 
 Running IMMAT (Background) :-
 ```
 cd IMMAT
 
-chmod +x main.py
+chmod +x Immat.py
 
-nohup python3 /path/to/main.py &
-
-#*#*#*#*#*#*#*#*#*#*#*#*#
-
-To stop :-
-
-pkill -f main.py
+nohup python3 /path/to/Immat.py &
+```
+To stop the background process:-
+```
+pkill -f Immat.py
 ```
 
 ## 🔨 Troubleshooting
@@ -79,12 +90,12 @@ IMMAT will only be running on Mac the commands would be given from iMessage on o
 
 Example - 
 
-Password - ###\
+Password - $\
 Command - ts (Take Screenshot)
 
 Message the below command through iMessage to Mac.
 ```
-### Ts
+$ Ts
 ```
 
 This will reply you with the screenshot of the Mac.
@@ -94,6 +105,8 @@ These are the available commands :-
 <img width="467" alt="Help" src="https://github.com/ParthJadhav/IMMAT/blob/master/resources/Help.png?raw=true">
 
 ## 💻 MacOS Demo
+
+Instead of main.py enter Immat.py
 
 <img width="467" alt="Help" src="https://user-images.githubusercontent.com/42001064/117545382-30071500-b043-11eb-8586-35e49c7a7489.GIF">
 
