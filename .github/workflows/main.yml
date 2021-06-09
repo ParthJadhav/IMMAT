@@ -14,8 +14,8 @@ jobs:
     name: Build & test Immat on ${{ matrix.os }}.
     runs-on: ${{ matrix.os }}
     strategy:
+      max-parallel: 6
       matrix:
-        max-parallel: 6
         os: [ubuntu-latest, macos-latest]
         include:
           - os: ubuntu-latest
