@@ -9,29 +9,21 @@ on:
 
   workflow_dispatch:
 
-defaults:
-  run:
-    shell: bash
-
 jobs:
   build_and_test:
-    name: Build & test Lamscript on ${{ matrix.os }} with ${{ matrix.compiler }}.
+    name: Build & test Immat on ${{ matrix.os }}.
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
         os: [ubuntu-latest, macos-latest]
-        compiler: [ g++-10 ]
         include:
           - os: ubuntu-latest
-            compiler: g++-10
             target: Linux
 
           - os: macos-latest
-            compiler: g++-10
             target: Macos
 
           - os: windows-latest
-            compiler: cl
             target: Windows
 
     steps:
