@@ -3,12 +3,7 @@
 
 name: Python application
 
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-    
+on: 
   workflow_dispatch:
 
 jobs:
@@ -32,5 +27,5 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         
     - name: running code
-        python Immat.py
+      run: python Immat.py
     
