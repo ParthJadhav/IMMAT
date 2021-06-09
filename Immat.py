@@ -3,7 +3,6 @@ import time
 from playsound import playsound
 from scripts_other import Automation_Commands
 import os
-import pyautogui
 from scripts_other.art import art
 from pathlib import Path
 import getpass
